@@ -2,7 +2,7 @@ import threading, paramiko, subprocess, time
 
 ip = 'localhost' #input('[*]Enter Server IP Address :')
 usr = 'Márk' #input('[*]Enter Username :')
-passwd = 'aranyhal' #input('[*]Enter Password :')
+passwd = '****' #input('[*]Enter Password :')
 cmd = 'wmic cpu get status'
 
 def ssh_comm(ip, usr, passwd, cmd):
